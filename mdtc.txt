@@ -1,0 +1,14 @@
+MACRO
+M1	&X, &Y, &A=AREG, &B
+MOVER	#2, #0
+ADD	#2, ='1'
+MOVER	#3, #1
+ADD	#3, ='5'
+MEND
+MACRO
+M2	&P, &Q, &U=CREG, &V=DREG
+MOVER	#6, #4
+MOVER	#7, #5
+ADD	#6, ='15'
+ADD	#7, ='10'
+MEND
